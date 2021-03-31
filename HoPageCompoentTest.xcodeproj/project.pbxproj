@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,6 +13,7 @@
 		C6D6BE992614276900AD0B82 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6D6BE972614276900AD0B82 /* Main.storyboard */; };
 		C6D6BE9B2614276900AD0B82 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C6D6BE9A2614276900AD0B82 /* Assets.xcassets */; };
 		C6D6BE9E2614276900AD0B82 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6D6BE9C2614276900AD0B82 /* LaunchScreen.storyboard */; };
+		C6D6BEA8261427AC00AD0B82 /* HoPageComponent in Frameworks */ = {isa = PBXBuildFile; productRef = C6D6BEA7261427AC00AD0B82 /* HoPageComponent */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C6D6BEA8261427AC00AD0B82 /* HoPageComponent in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +85,9 @@
 			dependencies = (
 			);
 			name = HoPageCompoentTest;
+			packageProductDependencies = (
+				C6D6BEA7261427AC00AD0B82 /* HoPageComponent */,
+			);
 			productName = HoPageCompoentTest;
 			productReference = C6D6BE8E2614276900AD0B82 /* HoPageCompoentTest.app */;
 			productType = "com.apple.product-type.application";
@@ -110,6 +115,9 @@
 				Base,
 			);
 			mainGroup = C6D6BE852614276900AD0B82;
+			packageReferences = (
+				C6D6BEA6261427AC00AD0B82 /* XCRemoteSwiftPackageReference "HoPageComponent" */,
+			);
 			productRefGroup = C6D6BE8F2614276900AD0B82 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -339,6 +347,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		C6D6BEA6261427AC00AD0B82 /* XCRemoteSwiftPackageReference "HoPageComponent" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "http://git.supericu.com:8099/hoa/HoPageComponent.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		C6D6BEA7261427AC00AD0B82 /* HoPageComponent */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C6D6BEA6261427AC00AD0B82 /* XCRemoteSwiftPackageReference "HoPageComponent" */;
+			productName = HoPageComponent;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = C6D6BE862614276900AD0B82 /* Project object */;
 }

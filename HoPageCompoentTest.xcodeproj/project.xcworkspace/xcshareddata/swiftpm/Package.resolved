@@ -1,0 +1,43 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "Bond",
+        "repositoryURL": "http://git.supericu.com:8099/hoa/Bond.git",
+        "state": {
+          "branch": "master",
+          "revision": "30ec190815c28446838ceb300e46ad4370c1030b",
+          "version": null
+        }
+      },
+      {
+        "package": "Differ",
+        "repositoryURL": "http://git.supericu.com:8099/hoa/Differ.git",
+        "state": {
+          "branch": "master",
+          "revision": "bb95c140e2309b2fcdc833a6e4da15c3e2b774bb",
+          "version": null
+        }
+      },
+      {
+        "package": "HoPageComponent",
+        "repositoryURL": "http://git.supericu.com:8099/hoa/HoPageComponent.git",
+        "state": {
+          "branch": "master",
+          "revision": "eed402a5c4f743a426a43b5bdd37914738a9ac8e",
+          "version": null
+        }
+      },
+      {
+        "package": "ReactiveKit",
+        "repositoryURL": "http://git.supericu.com:8099/hoa/ReactiveKit.git",
+        "state": {
+          "branch": "master",
+          "revision": "244c4e452ccf6f97dcd1a32c320e934b9280d115",
+          "version": null
+        }
+      }
+    ]
+  },
+  "version": 1
+}
